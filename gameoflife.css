@@ -1,0 +1,43 @@
+body{
+	margin: auto;
+	width: 800px;
+	background-color: #002;
+	font-size: 16px;
+}
+h1{
+	font-family: 'Paprika', cursive;
+	font-weight: bold;
+	color: #8df;
+	border: 2px dotted #eef;
+	border-radius: 70px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+div#board{
+	margin: 10px;
+	width: 768px;
+	height: 768px;
+}
+div.box{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #002;
+	display: inline-block;
+	background-color: #00a;
+	position: relative;
+}
+div.active{
+	background-color: #aaf;
+}
+
+div#info{
+	display: inline-block;
+}
+.key{
+	color: white;
+	margin: 0px 20px 0px 80px;
+}
+.value{
+	color: #88b;
+}
